@@ -1,0 +1,17 @@
+---
+    - name: Creates directory
+      file:
+         path: /opt/
+         state: directory
+         owner: root
+         group: root
+         mode: u=rwx,g=rwx,o=rwx
+    
+    - name: Template a file, using symbolic modes (equivalent to 0644)
+      template:
+         src: templates/docker-compose.yml.j2
+         dest: /opt/docker-compose.yml
+         owner: root
+         group: root
+         mode: u=rwx,g=rwx,o=r
+    

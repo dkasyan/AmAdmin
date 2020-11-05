@@ -1,0 +1,8 @@
+---
+    - hosts: host_ca
+      become: yes
+      roles:
+        - ansible_account
+        - install_basic_tools
+        - docker-compose
+        - am_admin-compose
