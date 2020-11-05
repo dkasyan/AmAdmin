@@ -1,0 +1,2 @@
+[Tellur-Front]
+ovh1 ansible_host=54.39.23.225 ansible_port=22 ansible_user=fox ansible_ssh_private_key_file=/Users/damian/.ssh/id_rsa.pub
