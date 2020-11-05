@@ -35,5 +35,5 @@ services:
  # mariadb:
  #   image: mariadb
  #   restart: always
- #   environment:
+ #   environment:sd
  #     MYSQL_ROOT_PASSWORD: example
